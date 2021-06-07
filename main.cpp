@@ -19,12 +19,10 @@ void FindPair(std::vector<int> v, const int result)
     return;
 }
 
-
-
 int main() {
 
     std::vector<int> input = {2, 7, 11, 15};
-    int result = 1;
+    int result = 9;
 
     FindPair(input, result);
     return 0;
